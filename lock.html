@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jail</title>
+  </head>
+  <body>
+    <main>
+        <h1>[|||]</h1>  
+        <p>(jail bars)</p>
+    </main>
+    <script type="text/javascript" >
+        window.onbeforeunload = function () {
+            return "Do you want to leave?"
+        }
+
+        // A jQuery event (I think), which is triggered after "onbeforeunload"
+        $(window).unload(function () {
+            alert("Do Reset..");
+            //I will call my method
+        });
+   </script>
+  </body>
+</html>
